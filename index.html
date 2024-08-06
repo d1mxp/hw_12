@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <title>module12</title>
+  </head>
+  <body>
+    <div class="container bg-light border rounded">
+      <div class="row row-cols-2 p-5">
+        <button class="col btn btn-outline-primary" id="growingUp">
+          Сортировать по возрастанию id
+        </button>
+        <button class="col btn btn-outline-secondary" id="growingDown">
+          Сортировать по убыванию id
+        </button>
+        <button class="col btn btn-outline-success" id="alphabet">
+          Сортировать по алфавиту
+        </button>
+
+        <select class="col btn btn-outline-warning" id="sortOptions">
+          <option value="growingUp">Сортировать по возрастанию id</option>
+          <option value="growingDown">Сортировать по убыванию id</option>
+          <option value="alphabet">Сортировать по алфавиту</option>
+        </select>
+      </div>
+      <h2>Пользователи</h2>
+      <div id="userList"></div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
